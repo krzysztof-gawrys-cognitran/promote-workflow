@@ -10,4 +10,4 @@ jobs:
       - name: Print received parameters
         run: |
           echo "Branch: ${{ github.event.client_payload.branch }}"
-          echo "Version: ${{ github.event.client_payload.version }}"
+          echo "Tag: ${{ github.event.client_payload.tag }}"
