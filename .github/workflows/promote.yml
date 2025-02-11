@@ -9,5 +9,4 @@ jobs:
     steps:
       - name: Print received parameters
         run: |
-          echo "Branch: ${{ github.event.client_payload.branch }}"
           echo "Tag: ${{ github.event.client_payload.tag }}"
