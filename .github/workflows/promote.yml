@@ -2,7 +2,7 @@ name: Run Tests with Parameters
 on:
   repository_dispatch:
     types: [run-tests]
-
+  workflow_dispatch: {}
 jobs:
   test:
     runs-on: ubuntu-latest
